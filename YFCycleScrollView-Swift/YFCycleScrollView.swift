@@ -39,7 +39,7 @@ class YFCycleScrollView: UIView {
     
     private var timer = Timer()
     
-    init(frame: CGRect, imageNamed: [String]) {
+    public init(frame: CGRect, imageNamed: [String]) {
         super.init(frame: frame)
         pageNum = imageNamed.count
         self.imageNamed = imageNamed

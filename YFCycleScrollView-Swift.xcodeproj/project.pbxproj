@@ -12,13 +12,13 @@
 		2F22F1441EBAFE2C00E8AE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1421EBAFE2C00E8AE6C /* Main.storyboard */; };
 		2F22F1461EBAFE2C00E8AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1451EBAFE2C00E8AE6C /* Assets.xcassets */; };
 		2F22F1491EBAFE2C00E8AE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1471EBAFE2C00E8AE6C /* LaunchScreen.storyboard */; };
-		2F22F1511EBAFE3D00E8AE6C /* YFCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F22F1501EBAFE3D00E8AE6C /* YFCycleScrollView.swift */; };
 		2F22F1591EBAFE7A00E8AE6C /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1531EBAFE7A00E8AE6C /* 0.png */; };
 		2F22F15A1EBAFE7A00E8AE6C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1541EBAFE7A00E8AE6C /* 1.png */; };
 		2F22F15B1EBAFE7A00E8AE6C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1551EBAFE7A00E8AE6C /* 2.png */; };
 		2F22F15C1EBAFE7A00E8AE6C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1561EBAFE7A00E8AE6C /* 3.png */; };
 		2F22F15D1EBAFE7A00E8AE6C /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1571EBAFE7A00E8AE6C /* 4.png */; };
 		2F22F15E1EBAFE7A00E8AE6C /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F22F1581EBAFE7A00E8AE6C /* 5.png */; };
+		2F22F1611EBB1A0200E8AE6C /* YFCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F22F1601EBB1A0200E8AE6C /* YFCycleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +29,13 @@
 		2F22F1451EBAFE2C00E8AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F22F1481EBAFE2C00E8AE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F22F14A1EBAFE2C00E8AE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F22F1501EBAFE3D00E8AE6C /* YFCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFCycleScrollView.swift; sourceTree = "<group>"; };
 		2F22F1531EBAFE7A00E8AE6C /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		2F22F1541EBAFE7A00E8AE6C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		2F22F1551EBAFE7A00E8AE6C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		2F22F1561EBAFE7A00E8AE6C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		2F22F1571EBAFE7A00E8AE6C /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		2F22F1581EBAFE7A00E8AE6C /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2F22F1601EBB1A0200E8AE6C /* YFCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFCycleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		2F22F13D1EBAFE2C00E8AE6C /* YFCycleScrollView-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				2F22F1501EBAFE3D00E8AE6C /* YFCycleScrollView.swift */,
+				2F22F1601EBB1A0200E8AE6C /* YFCycleScrollView.swift */,
 				2F22F13E1EBAFE2C00E8AE6C /* AppDelegate.swift */,
 				2F22F1401EBAFE2C00E8AE6C /* ViewController.swift */,
 				2F22F1421EBAFE2C00E8AE6C /* Main.storyboard */,
@@ -182,7 +182,7 @@
 			files = (
 				2F22F1411EBAFE2C00E8AE6C /* ViewController.swift in Sources */,
 				2F22F13F1EBAFE2C00E8AE6C /* AppDelegate.swift in Sources */,
-				2F22F1511EBAFE3D00E8AE6C /* YFCycleScrollView.swift in Sources */,
+				2F22F1611EBB1A0200E8AE6C /* YFCycleScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +346,7 @@
 				2F22F14F1EBAFE2C00E8AE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
