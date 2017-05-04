@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "YFCycleScrollView"
-  s.version      = "1.0.0"
-  s.summary      = "coustom cycleScrollView."
+  s.name         = "YFCycle"
+  s.version      = "1.0.1"
+  s.summary      = "自定义轮播图片."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC 
-                    coustom cycleScrollView. verson 1.0.0
+                    coustom cycleScrollView. verson 1.0.1
                     DESC
 
 
@@ -37,9 +37,12 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/Xiaoye220/YFCycleScrollView-Swift.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/Xiaoye220/YFCycleScrollView-Swift.git", :tag => "1.0.1" }
 
   s.source_files  = "YFCycleScrollView-Swift/YFCycleScrollView.swift"
+
+  s.framework  = "UIKit"
+
 
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -124,7 +127,6 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

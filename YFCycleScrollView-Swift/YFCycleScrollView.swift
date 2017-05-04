@@ -9,7 +9,7 @@
 import UIKit
 
 
-class YFCycleScrollView: UIView {
+public class YFCycleScrollView: UIView {
     
     private let goldenSection: CGFloat  = 0.618
     private var leftImageView: Int { get { return (currentImageView + 3) % 4 } }
@@ -169,7 +169,7 @@ class YFCycleScrollView: UIView {
         timer.invalidate()
     }
    
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
